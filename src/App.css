@@ -1,0 +1,88 @@
+/* ---- events ---- */
+ .event {
+     padding: 5px;
+     width: 100%;
+     margin-bottom: 120px;
+}
+ .event:last-of-type {
+     margin-bottom: 100px;
+}
+ .eventtime {
+     text-align: right;
+     padding-right: 25px;
+}
+ .eventtime .day {
+     font-family: 'league-gothic', Arial, san-serif;
+     color: #999;
+     text-transform: uppercase;
+     font-size: 22px;
+     font-weight: normal;
+     text-align: right;
+     line-height: 1em;
+}
+ .eventtime .date {
+     font-family: 'league-gothic', Arial, san-serif;
+     color: #333;
+     text-transform: uppercase;
+     font-size: 25px;
+     font-weight: normal;
+     text-align: right;
+     line-height: 1em;
+}
+ .eventtime .time {
+     font-family: 'league-gothic', Arial, san-serif;
+     color: #999;
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: normal;
+     text-align: right;
+}
+ .eventdesc {
+     padding-left: 25px;
+     border-left: 4px solid #f5bb59;
+}
+ .eventdesc .title, .eventdesc .location {
+     font-family: 'league-gothic', Arial, san-serif;
+     color: #333;
+     font-size: 22px;
+     font-weight: normal;
+}
+ .eventdesc .title {
+    text-transform: uppercase;
+     letter-spacing: 3px;
+}
+ .eventdesc .description {
+    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+     color:#999;
+}
+ .eventdesc .description p {
+     margin-bottom: -10px;
+}
+ .eventdesc .location {
+    font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
+     font-size: 12px;
+     font-style: italic;
+}
+ .eventdesc .glyphicon-map-marker {
+     color: #8a95a2 !important;
+}
+ .clear {
+     clear: both;
+}
+ .stateLabel {
+     font-family: 'league-gothic', Arial, san-serif;
+     color: #be2025;
+     text-transform: uppercase;
+     font-size: 32px;
+     font-weight: normal;
+     text-align: left;
+     border-bottom: 1px solid #cfcfcf;
+     margin-bottom: 30px;
+     line-height: 1em;
+}
+ .eventIcon {
+     float: left;
+     border: 1px solid #999;
+     margin-right: 20px;
+     margin-bottom: 10px;
+}
